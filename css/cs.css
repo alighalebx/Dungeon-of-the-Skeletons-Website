@@ -1,0 +1,240 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    
+}
+.animated-bg {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background: linear-gradient(45deg, #7289da, #2c2f33, #23272a);
+    background-size: 300% 300%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+  }
+  
+  @keyframes change {
+    0% {
+      background-position: 0% 50%;
+    }
+  
+    50% {
+      background-position: 100% 50%;
+    }
+  
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 25px;
+    color: #99aab5;
+    cursor: pointer;
+    transition: all .5s linear;
+
+}
+.menu ul li:hover{
+    color: #7289da
+}
+.logo img{
+    width: 40px;
+    position: relative;
+    top: 45px;
+    left: 30px;
+
+
+}
+
+nav{
+    height: 10vh;
+    width: 5vw;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+}
+a{
+    position: relative;
+    right: 300px;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    color: #a0a0a0;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+a:after{
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover{
+    color: #ffffff;
+}
+a:hover:after{
+    width: 100%;
+}
+.text{
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+.table-box{
+    margin: 7% 6% auto;
+}
+.table-row{
+    display: table;
+    width: 40%;
+    font-family: sans-serif;
+    background: transparent;
+    padding: 0.89% 0;
+    color:#555 ;
+    font-size: 13px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,50,0.3);
+
+}
+.table-head{
+    background: #8665f7;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 600;
+}
+.table-head .table-cell{
+    border-right: none;
+}
+.table-cell{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    padding: 1.5% 0;
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+}
+
+.first-cell{
+    text-align: left;
+    padding-left: 2%;
+}
+.last-cell{
+    border-right: none;
+}
+
+@media (max-width: 600px) {
+    .table-row {
+      font-size: 11px;
+    }
+  }
+
+
+  
+  @media only screen and (min-width: 768px){
+#about_monitor_video {
+    width: 60%;
+    right: 0;
+    top: -5vw;
+    left: 40%;
+}
+  }
+#about_monitor_video {
+    position: absolute;
+    top: 10vw;
+    right: 0;
+    left: 50vw;
+    width: 35vw;
+}
+
+.ctaContainer-3vWJHU {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.downloadButton-111eh6 {
+    position: relative;
+    left: 56%;
+    bottom: 50%;
+}
+.buttonLarge-2j8B-n {
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+}
+.buttonWhite-18r1SC {
+    background-color: #fff;
+    background-color: var(--white);
+    color: #23272a;
+    color: var(--not-quite-black);
+}
+.button-195cDm {
+    border-radius: 50%;
+    line-height: 24px;
+    cursor: pointer;
+    font-weight: 500;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition-property: background-color,color,-webkit-box-shadow;
+    transition-property: background-color,color,-webkit-box-shadow;
+    transition-property: background-color,color,box-shadow;
+    transition-property: background-color,color,box-shadow,-webkit-box-shadow;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+a, abbr, acronym, address, applet, big, blockquote, body, button, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, input, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-rendering: optimizeLegibility;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    line-height: 1.15;
+}
+.shape{
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.size-game{
+
+    position: relative;
+    left: 60%;
+    bottom: 50%px;
+
+}
+  
